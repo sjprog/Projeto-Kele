@@ -12,9 +12,10 @@ body {
 }
 
 .container {
-  background-color: #fafafa;
+  background-color: #e2e2e2;
   transform-origin: top left;
   transition: transform 0.5s linear;
+  border-radius:5px ;
   width: 100vw;
   min-height: 100vh;
   padding: 50px;
