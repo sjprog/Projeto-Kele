@@ -53,7 +53,7 @@ body{
 }
 
 .circle button:focus{
-    overflow: none;
+    outline: none;
 }
 
 .circle button#open{
