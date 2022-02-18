@@ -19,13 +19,17 @@
 }
 body {
   font-family: 'Lato', sans-serif;
-  background-color: #3f3f3f;
+  background-color: #000000;
   color: #ffffff;
   overflow-x: hidden;
   margin: 0;
 }
 
 .container {
+  
+  background       : linear-gradient(rgba(54, 53, 53, 0.50), rgba(0, 0, 0, .50)100%), url(img/fundo07.jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
   background-color: #1f2120;
   transform-origin: top left;
   transition: transform 0.5s linear;
@@ -46,7 +50,7 @@ body {
 }
 
 .circle {
-  background-color: #13e204;
+  background-color: #0b467f;
   height: 200px;
   width: 200px;
   border-radius: 50%;
@@ -66,7 +70,7 @@ body {
   background: transparent;
   border: 0;
   font-size: 26px;
-  color: #1f2120;
+  color: #ffffff;
 }
 
 .circle button:focus {
@@ -124,6 +128,7 @@ nav ul li + li + li {
 
 .content img {
   max-width: 100%;
+  
 }
 .content {
   max-width: 1000px;
