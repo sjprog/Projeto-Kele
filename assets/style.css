@@ -150,18 +150,21 @@ nav ul li + li + li {
 }
 
 .content h1 {
+  text-shadow    : 2px 2px rgb(0, 0, 0);
   color: #4da2d6;
   margin: 0;
   font-size: 50px;
 }
 
 .content small {
+  text-shadow    : 2px 2px rgb(0, 0, 0);
   color: #13e204;
   font-style: italic;
   font-size: 30px;
 }
 
 .content p {
+  text-shadow    : 2px 2px rgb(0, 0, 0);
   color: #ffffff;
   line-height: 1.5;
 }
