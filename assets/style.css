@@ -156,6 +156,10 @@ nav ul li + li + li {
   font-size: 50px;
 }
 
+input{
+    display: none;
+}
+
 .content small {
   text-shadow    : 2px 2px rgb(0, 0, 0);
   color: #13e204;
