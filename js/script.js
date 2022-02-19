@@ -12,12 +12,41 @@ close.addEventListener('click', () => container.classList.remove('show-nav'))
 
 //velocidade para digitar
 
+let textEl3 = document.getElementById('text3')
+let speedEl3 = document.getElementById('speed3')
+let text3 ='Sidney Siqueira'
+let idx3 = 1
+let speed3 = 80/ speedEl3.value
+
+
+
+
+writeText3()
+
+function writeText3() {
+    textEl3.innerText = text3.slice(0, idx3)
+
+    idx3++
+
+    if(idx3 >text3.length) {
+      //idx=4
+    }
+
+    setTimeout(writeText3, speed3)
+
+}
+
+
+
+
+
+
 
 let textEl = document.getElementById('text')
 let speedEl = document.getElementById('speed')
 let text ='Desenvolvedor Full Stack'
 let idx = 1
-let speed = 100/ speedEl.value
+let speed = 80/ speedEl.value
 
 
 
