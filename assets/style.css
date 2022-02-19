@@ -27,7 +27,7 @@ body {
 
 .container {
   
-  background       : linear-gradient(rgba(54, 53, 53, 0.60), rgba(0, 0, 0, 0.60)150%), url(img/fundo07.jfif);
+  background       : linear-gradient(rgba(54, 53, 53, 0.60), rgba(0, 0, 0, 0.60)150%), url(fundo07.jfif);
   background-position:center; 
   background-repeat: no-repeat;
   background-color: #1f2120;
@@ -129,6 +129,8 @@ nav ul li + li + li {
 
 .content img {
   max-width: 100%;
+  max-height: 100%;
+  
   
 }
 .content {
