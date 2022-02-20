@@ -67,27 +67,3 @@ function writeText() {
 }
 
 // velocidade para digitar
-
-let textEl2 = document.getElementById('text2')
-let speedEl2 = document.getElementById('speed2')
-let text2 ='▪ Analista de desenvolvimento de sistemas e Desenvolvedor full stack, focado em javascript e apto para trabalho em equipe.formado em gestão de negócios imobiliários. transitei de carreira para a área de tecnologia visando melhor aplicação dos meus conhecimentos e oportunidades de crescimento como profissional, grande experiência com gestão de pessoas e projetos com diversas complexidades.'
-let idx2 = 1
-let speed2 = 20/ speedEl2.value
-
-
-
-
-writeText2()
-
-function writeText2() {
-    textEl2.innerText = text2.slice(0, idx2)
-
-    idx2++
-
-    if(idx2 >text2.length) {
-      //idx2=4
-    }
-
-    setTimeout(writeText2, speed2)
-
-}
