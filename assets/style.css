@@ -37,11 +37,11 @@ body {
 
 
 section{
+  
   display: flex;
   margin:auto;
-  background-color: #ffffff;
-  padding: 20px;
-  width: 80px;
+  padding: 10px;
+  width: 120px;
   align-items: center;
   justify-content: center;
   border-radius: 3px;
@@ -51,6 +51,7 @@ section{
 }
 
 section.active{
+  margin-top: 10px;
   width: 350px;
 
 }
@@ -64,8 +65,10 @@ section ul{
 }
 section.active ul{
   width: 100%;
+ 
 }
 section ul li{
+  
   transform: rotateY(0deg);
   opacity: 0;
   transition: transform 0.6s linear, opacity 0.6s linear;
@@ -84,7 +87,7 @@ section ul a {
 }
 
 .icon{
-  background-color: #ffffff;
+  background-color: #20212400;
   border: 0;
   cursor: pointer;
   padding: 0;
@@ -96,12 +99,12 @@ section ul a {
   outline: 0;
 }
 .icon .line{
-  background-color: #119e07;
-  height: 2px;
-  width: 20px;
+  background-color: #ffffff;
+  height: 3px;
+  width: 25px;
   position: absolute;
   top:10px;
-  left: 5px;
+  left: 2px;
   transition: transform 0.6s linear;
 
 }
@@ -109,6 +112,10 @@ section ul a {
   top: auto;
   bottom: 10px;
 
+}
+
+li img{
+  border:0px;
 }
 section.active .icon .line1{
   transform: rotate(-765deg) translateY(5.5px);
