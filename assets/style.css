@@ -24,7 +24,7 @@ body {
   margin: 0;
 }
 
-/* tem que terminar */
+
 
 section {
   display: flex;
@@ -87,6 +87,8 @@ section ul a {
   margin: 0 10px;
 }
 
+
+
 .icon {
   background-color: #20212400;
   border: 0;
@@ -96,6 +98,18 @@ section ul a {
   height: 30px;
   width: 30px;
 }
+/*  
+.icon {
+  background-color: #20212400;
+  border: 0;
+  cursor: pointer;
+  padding: 0;
+  position: relative;
+  height: 30px;
+  width: 30px;
+}
+*/
+  
 .icon:focus {
   outline: 0;
 }
@@ -118,11 +132,20 @@ li img {
 }
 section.active .icon .line1 {
   
-  transform: rotate(-765deg) translateY(5.5px);
+  transform: rotate(765deg) translateY(5.5px);
 }
 section.active .icon .line2 {
-  transform: rotate(765deg) translateY(-5.5px);
+  transform: rotate(-765deg) translateY(-5.5px);
 }
+
+
+
+
+
+
+
+
+
 
 .card {
   box-shadow: 30px 30px 10px rgba(0, 0, 0, 0.2);

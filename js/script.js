@@ -1,12 +1,17 @@
 
-const open = document.getElementById('open')
 const close = document.getElementById('close')
+const open = document.getElementById('open')
 const container = document.querySelector('.container')
 
 
 open.addEventListener('click', () => container.classList.add('show-nav')) 
 
 close.addEventListener('click', () => container.classList.remove('show-nav')) 
+
+const toggle = document.getElementById('toggle')
+const section = document.getElementById('nav')
+
+toggle.addEventListener('click', () => nav.classList.toggle('active'))
 
 
 
@@ -69,16 +74,5 @@ function writeText() {
 // velocidade para digitar
 
 
-
-
-const toggle = document.getElementById('toggle')
-const section = document.getElementById('nav')
-
-toggle.addEventListener('click', () => nav.classList.toggle('active'))
-
-
-
-
-// outra parte
 
 
