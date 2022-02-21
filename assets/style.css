@@ -2,22 +2,16 @@
 
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
-:root{
-   --cor01:#0fff00;
-   --cor01:#13e204;
-   --cor01:#119e07;
-   --cor02:#0fff00;
-   --cor03:#3f3f3f;
-   --cor04:#e2e2e2;
-   --cor04:#9b9b9b;
-   --cor04:#ffffff;
-   
+:root {
+  --cor01: #0fff00;
+  --cor01: #13e204;
+  --cor01: #119e07;
+  --cor02: #0fff00;
+  --cor03: #3f3f3f;
+  --cor04: #e2e2e2;
+  --cor04: #9b9b9b;
+  --cor04: #ffffff;
 }
-
-
-
-
-
 
 * {
   box-sizing: border-box;
@@ -30,16 +24,12 @@ body {
   margin: 0;
 }
 
-
-
-
 /* tem que terminar */
 
-
-section{
-  
+section {
   display: flex;
-  margin:auto;
+  margin: auto;
+ 
   padding: 10px;
   width: 120px;
   align-items: center;
@@ -50,12 +40,13 @@ section{
   overflow-x: hidden;
 }
 
-section.active{
+section.active {
+  
   margin-top: 10px;
   width: 350px;
-
 }
-section ul{
+section ul {
+  
   display: flex;
   list-style-type: none;
   padding: 0;
@@ -63,18 +54,17 @@ section ul{
   width: 0;
   transition: width 0.6s linear;
 }
-section.active ul{
-  width: 100%;
- 
-}
-section ul li{
+section.active ul {
   
+  width: 100%;
+}
+section ul li {
   transform: rotateY(0deg);
   opacity: 0;
   transition: transform 0.6s linear, opacity 0.6s linear;
 }
 
-section.active ul li{
+section.active ul li {
   opacity: 1;
   transform: rotateY(360deg);
 }
@@ -82,11 +72,11 @@ section.active ul li{
 section ul a {
   position: relative;
   color: #000;
-  text-decoration: none ;
+  text-decoration: none;
   margin: 0 10px;
 }
 
-.icon{
+.icon {
   background-color: #20212400;
   border: 0;
   cursor: pointer;
@@ -95,66 +85,63 @@ section ul a {
   height: 30px;
   width: 30px;
 }
-.icon:focus{
+.icon:focus {
   outline: 0;
 }
-.icon .line{
+.icon .line {
   background-color: #0fff00;
   height: 3px;
   width: 25px;
   position: absolute;
-  top:10px;
+  top: 10px;
   left: 2px;
   transition: transform 0.6s linear;
-
 }
-.icon .line2{
+.icon .line2 {
   top: auto;
   bottom: 10px;
-
 }
 
-li img{
-  border:0px;
+li img {
+  border: 0px;
 }
-section.active .icon .line1{
+section.active .icon .line1 {
   transform: rotate(-765deg) translateY(5.5px);
-
 }
-section.active .icon .line2{
+section.active .icon .line2 {
   transform: rotate(765deg) translateY(-5.5px);
-
 }
 
-/* tem que terminar */
+.card {
+  box-shadow: 30px 30px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 40px;
+  overflow: hidden;
+  width: 350px;
+  margin: auto;
+  width: 400px;
+  height: 550px;
+}
 
+.minhafoto {
+  border-radius: 10px;
+  max-width: 100%;
+}
 
-
-
-
-
-
-
-
-
-
-
-.container {  
- 
-  background       : linear-gradient(rgba(54, 53, 53, 0.60), rgba(0, 0, 0, 0.60)150%), url(fundo07.jfif);
-  background-position:center; 
+.container {
+  background: linear-gradient(rgba(54, 53, 53, 0.6), rgba(0, 0, 0, 0.6) 150%),
+    url(fundo07.jfif);
+  background-position: center;
   background-repeat: no-repeat;
   background-color: #1f2120;
   transform-origin: top left;
   transition: transform 0.5s linear;
-  border-radius:5px ;
+  border-radius: 5px;
   width: 100vw;
   min-height: 100vh;
   padding: 50px;
 }
 
 .container.show-nav {
-  
   transform: rotate(-20deg);
 }
 
@@ -165,8 +152,7 @@ section.active .icon .line2{
 }
 
 .circle {
-    
-  background:radial-gradient(rgb(15, 84, 114), rgb(29, 108, 30)120%);
+  background: radial-gradient(rgb(15, 84, 114), rgb(29, 108, 30) 120%);
   height: 200px;
   width: 200px;
   border-radius: 50%;
@@ -175,11 +161,9 @@ section.active .icon .line2{
 }
 
 .container.show-nav .circle {
-  
   transform: rotate(-70deg);
 }
 .circle button {
-  
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -192,7 +176,6 @@ section.active .icon .line2{
 }
 
 .circle button:focus {
-   
   outline: none;
 }
 
@@ -207,13 +190,11 @@ section.active .icon .line2{
 }
 
 .container.show-nav + nav li {
-  
   transform: translateX(0);
   transition-delay: 0.3s;
 }
 
 nav {
-  
   position: fixed;
   bottom: 40px;
   left: 0;
@@ -221,7 +202,6 @@ nav {
 }
 
 nav ul {
- 
   list-style-type: none;
   padding-left: 30px;
 }
@@ -248,41 +228,39 @@ nav ul li + li + li {
   transform: translateX(-200%);
 }
 
-.content img {
-
-  border-style: solid;
-  border-color:#4da1d65d;
-  border-radius: 20%;
-  max-width: 100%;
-  max-height: 100%;
-  
-  
-}
 .content {
   max-width: 1000px;
   margin: 50px auto;
 }
 
 .content h1 {
-  text-shadow    : 2px 2px rgb(0, 0, 0);
+  text-shadow: 2px 2px rgb(0, 0, 0);
   color: #4da2d6;
-  margin: 0;
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-bottom: 0px;
+
   font-size: 47px;
 }
 
-input{
-    display: none;
+input {
+  display: none;
 }
 
 .content small {
-  text-shadow    : 2px 2px rgb(0, 0, 0);
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-bottom: 0px;
+  text-shadow: 2px 2px rgb(0, 0, 0);
   color: #13e204;
   font-style: italic;
   font-size: 25px;
 }
 
 .content p {
-  text-shadow    : 2px 2px rgb(0, 0, 0);
+  text-shadow: 2px 2px rgb(0, 0, 0);
   color: #ffffff;
   line-height: 1.5;
   font-size: 17px;

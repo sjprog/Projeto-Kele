@@ -75,3 +75,10 @@ const toggle = document.getElementById('toggle')
 const section = document.getElementById('nav')
 
 toggle.addEventListener('click', () => nav.classList.toggle('active'))
+
+
+
+
+// outra parte
+
+
