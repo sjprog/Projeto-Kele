@@ -281,7 +281,46 @@ input {
 
 
 
+@media screen and (max-width: 768px){
 
+* {
+    box-sizing: border-box;
+    max-width: 768px;
+    
+  }
+
+  .content h1 {
+    padding-left: 40px;
+    font-size: 40px;
+  }
+
+  .content small {
+    padding-left: 40px;
+    font-size: 20px;
+  }
+
+  section.active {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+
+    width: 300px;
+  }
+
+  li img {
+    border: 0px;
+    width: 40px;
+    height: 40px;
+  }
+nav {
+ 
+ margin-top: 320px;
+  top:0;
+
+  
+}
+
+}
 
 
 
@@ -345,6 +384,15 @@ input {
     width: 40px;
     height: 40px;
   }
+nav {
+ 
+ margin-top: 650px;
+  top:0;
+
+  
+}
+
+
 }
 
 @media screen and (max-width: 380px) {
@@ -380,6 +428,14 @@ input {
     width: 30px;
     height: 30px;
   }
+nav {
+ 
+ margin-top: 350px;
+  top:0;
+
+  
+}
+
 }
 
 @media screen and (max-width: 320px) {
@@ -417,9 +473,9 @@ body{
 
 nav {
  
-  
-  
-  left: 0;
+ margin-top: 350px;
+  top:0;
+
   
 }
 
