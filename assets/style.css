@@ -449,11 +449,17 @@ body{
   max-height: 568px;
 }
   .content h1 {
-    font-size: 23px;
+    margin-bottom: 0px;
+    margin-right: 12px;
+    margin-left: 0px;
+    margin-top: 10px;
+    font-size: 25px;
   }
 
   .content small {
+    
     font-size: 13px;
+    margin-left: 0px;
   }
 
   section.active {
