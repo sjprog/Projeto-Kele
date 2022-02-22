@@ -276,7 +276,7 @@ nav ul li + li + li {
   margin-right: 30px;
   margin-left: 30px;
   margin-bottom: 0px;
-  font-size: 35px;
+  font-size: 50px;
 }
 
 input {
@@ -291,7 +291,7 @@ input {
   text-shadow: 2px 2px rgb(0, 0, 0);
   color: #13e204;
   font-style: italic;
-  font-size: 22px;
+  font-size: 28px;
 }
 
 .content p {
@@ -299,4 +299,10 @@ input {
   color: #ffffff;
   line-height: 1.5;
   font-size: 17px;
+}
+
+@media (min-width: 576px) {
+  body{
+    max-width: 540px;
+  }
 }
