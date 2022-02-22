@@ -301,8 +301,37 @@ input {
   font-size: 17px;
 }
 
-@media (min-width: 576px) {
-  body{
-    max-width: 540px;
+@media (min-width: 412px) {
+  *{
+    max-width: 412px;
   }
+ 
+  .content h1 {
+   font-size: 35px;
+}
+
+
+
+.content small {
+ font-size: 22px;
+}
+
+section.active {
+  
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  
+  width: 300px;
+}
+
+
+li img {
+  border: 0px;
+  width: 40px;
+  height: 40px;
+}
+
+
+
 }
