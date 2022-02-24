@@ -103,19 +103,36 @@ button:focus {
 
 .sobre {
   box-sizing: border-box;
-  padding-left: 60px;
-  padding-right: 120px;
+  padding-left: 70px;
+  padding-right: 50px;
   margin: auto;
-  top: 35%;
+  top: 8%;
   position: absolute;
-  font-size: 30px;
-  text-align: justify;
+  font-size: 27px;
+  text-align: left;
   justify-items: center;
   color: #fff;
   text-shadow: 3px 3px rgb(0, 0, 0);
 }
 
 .analise {
+  color: #0fff00;
+}
+
+.maissobre{
+  box-sizing: border-box;
+  padding-left: 70px;
+  padding-right: 50px;
+  margin: auto;
+  font-size: 25px;
+  text-align: left;
+  justify-items: center;
+  color: #fff;
+  text-shadow: 3px 3px rgb(0, 0, 0);
+
+}
+
+.maissobre2{
   color: #0fff00;
 }
 
