@@ -120,11 +120,13 @@ button:focus {
 }
 
 .maissobre{
-  box-sizing: border-box;
-  padding-left: 70px;
-  padding-right: 50px;
+  box-sizing: border-box;  
+  padding-left: 60px;
+  padding-top: 30px;
+  padding-bottom: 18px;
+  padding-right: 40px;
   margin: auto;
-  font-size: 25px;
+  font-size: 18px;
   text-align: left;
   justify-items: center;
   color: #fff;
@@ -134,6 +136,83 @@ button:focus {
 
 .maissobre2{
   color: #0fff00;
+}
+
+.disciplina{
+  box-sizing: border-box;  
+  padding-left: 60px;
+  padding-bottom: 15px;
+  margin: auto;
+  font-size: 20px;
+  text-align: left;
+  justify-items: center;
+  color: #0fff00;
+  text-shadow: 3px 3px rgb(0, 0, 0);
+}
+.paragrafodisciplina{
+  box-sizing: border-box;  
+  padding-left: 60px;
+  padding-right:40px ;
+  padding-bottom: 18px;
+  margin: auto;
+  font-size: 18px;
+  text-align: left;
+  justify-items: center;
+  color: #fff;
+  text-shadow: 3px 3px rgb(0, 0, 0);
+}
+
+.humildade{
+  box-sizing: border-box;  
+  padding-left: 60px;
+  padding-bottom: 15px;
+  margin: auto;
+  font-size: 20px;
+  text-align: left;
+  justify-items: center;
+  color: #0fff00;
+  text-shadow: 3px 3px rgb(0, 0, 0);
+
+}
+
+
+.paragrafohumildade{
+  box-sizing: border-box;  
+  padding-left: 60px;
+  padding-right:40px ;
+  padding-bottom: 15px;
+  margin: auto;
+  font-size: 18px;
+  text-align: left;
+  justify-items: center;
+  color: #fff;
+  text-shadow: 3px 3px rgb(0, 0, 0);
+
+}
+
+.autoresponsabilidade{
+  box-sizing: border-box;  
+  padding-left: 60px;
+  padding-bottom: 15px;
+  margin: auto;
+  font-size: 20px;
+  text-align: left;
+  justify-items: center;
+  color: #0fff00;
+  text-shadow: 3px 3px rgb(0, 0, 0);
+}
+
+
+.paragraautores{
+box-sizing: border-box;  
+  padding-left: 60px;
+  padding-right:40px ;
+  margin: auto;
+  font-size: 18px;
+  text-align: left;
+  justify-items: center;
+  color: #fff;
+  text-shadow: 3px 3px rgb(0, 0, 0);
 }
 
 @media screen and (max-width: 768px){
