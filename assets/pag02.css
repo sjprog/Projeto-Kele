@@ -216,6 +216,31 @@ box-sizing: border-box;
   text-shadow: 3px 3px rgb(0, 0, 0);
 }
 
+@media screen and (max-width: 1440px){
+
+.sobre {
+  box-sizing: border-box;
+  padding-left: 30px;
+  padding-right: 12px;
+  margin: auto;
+  top: 3%;
+  position: absolute;
+  font-size: 25px;
+  text-align: left;
+  justify-items: center;
+  color: #fff;
+  text-shadow: 3px 3px rgb(0, 0, 0);
+}
+
+.analise {
+  color: #0fff00;
+}
+
+}
+
+
+
+
 @media screen and (max-width: 768px){
 * {
     max-width: 768px;
@@ -242,7 +267,23 @@ box-sizing: border-box;
     top: 8%;
   }
 
+ .sobre {
+  box-sizing: border-box;
+  padding-left: 30px;
+  padding-right: 12px;
+  margin: auto;
+  top: 3%;
+  position: absolute;
+  font-size: 22px;
+  text-align: left;
+  justify-items: center;
+  color: #fff;
+  text-shadow: 3px 3px rgb(0, 0, 0);
+}
 
+.analise {
+  color: #0fff00;
+}
 
 }
 
