@@ -67,8 +67,26 @@ body {
 }
 .overflow{
   overflow-y: scroll;
-
-
+}
+.overflow1{
+  overflow-y: scroll;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  padding-left: 70px;
+  padding-right: 50px;  
+  top: 8%; 
+  font-size: 27px;
+  text-align: left;
+  justify-items: center;
+  color: #fff;
+  text-shadow: 3px 3px rgb(0, 0, 0);
+}
+.overflow2{
+  overflow-y: scroll;
+}
+.overflow3{
+ 
+  overflow-y: scroll;
 }
 
 button {
@@ -109,7 +127,7 @@ button:focus {
 
 .sobre {
 
-  
+  padding-top: 100px;
   padding-left: 70px;
   padding-right: 50px;
   
@@ -127,6 +145,15 @@ button:focus {
   color: #0fff00;
 }
 
+.analise1 {
+  padding-right: 50px;
+  padding-top: 70px;
+  text-align: center;
+  color: #0fff00;
+}
+.data{
+  color: rgb(233, 137, 13);
+}
 .maissobre{
   
   box-sizing: border-box;  
@@ -135,7 +162,7 @@ button:focus {
   padding-bottom: 18px;
   padding-right: 40px;
   margin: auto;
-  font-size: 17px;
+  font-size: 22px;
   text-align: left;
   justify-items: center;
   color: #fff;
@@ -145,7 +172,7 @@ button:focus {
 
 .maissobre2{
   color: #0fff00;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .disciplina{
@@ -153,7 +180,7 @@ button:focus {
   padding-left: 60px;
   padding-bottom: 15px;
   margin: auto;
-  font-size: 20px;
+  font-size: 30px;
   text-align: left;
   justify-items: center;
   color: #0fff00;
@@ -165,7 +192,7 @@ button:focus {
   padding-right:40px ;
   padding-bottom: 18px;
   margin: auto;
-  font-size: 17px;
+  font-size: 22px;
   text-align: left;
   justify-items: center;
   color: #fff;
@@ -177,7 +204,7 @@ button:focus {
   padding-left: 60px;
   padding-bottom: 15px;
   margin: auto;
-  font-size: 20px;
+  font-size: 30px;
   text-align: left;
   justify-items: center;
   color: #0fff00;
@@ -192,7 +219,7 @@ button:focus {
   padding-right:40px ;
   padding-bottom: 15px;
   margin: auto;
-  font-size: 17px;
+  font-size: 22px;
   text-align: left;
   justify-items: center;
   color: #fff;
@@ -205,7 +232,7 @@ button:focus {
   padding-left: 60px;
   padding-bottom: 15px;
   margin: auto;
-  font-size: 20px;
+  font-size: 30px;
   text-align: left;
   justify-items: center;
   color: #0fff00;
@@ -214,11 +241,12 @@ button:focus {
 
 
 .paragraautores{
+  padding-bottom: 60px;
 box-sizing: border-box;  
   padding-left: 60px;
   padding-right:40px ;
   margin: auto;
-  font-size: 17px;
+  font-size: 22px;
   text-align: left;
   justify-items: center;
   color: #fff;
@@ -369,12 +397,12 @@ box-sizing: border-box;
   }
 
 
-.sobre {
- 
- 
-  padding-left: 10px;
-  padding-right: 5px;
+.sobre { 
+  max-height: 668px;
+  padding-left: 13px;
+  padding-right: 19px;
   padding-bottom: 5px; 
+  padding-top: 2px;
   font-size: 11px;
   text-align: left;
   justify-items: left;
