@@ -242,6 +242,8 @@ box-sizing: border-box;
     top: 8%;
   }
 
+
+
 }
 
 
@@ -274,6 +276,24 @@ box-sizing: border-box;
     top: 10%;
   }
 
+  .sobre {
+  box-sizing: border-box;
+  padding-left: 30px;
+  padding-right: 10px;
+  margin: auto;
+  top: 3%;
+  position: absolute;
+  font-size: 15px;
+  text-align: left;
+  justify-items: center;
+  color: #fff;
+  text-shadow: 3px 3px rgb(0, 0, 0);
+}
+
+.analise {
+  color: #0fff00;
+}
+
 
 }
 
@@ -303,4 +323,23 @@ box-sizing: border-box;
     text-align: center;
     top: 5%;
   }
+
+  .sobre {
+  box-sizing: border-box;
+  padding-left: 30px;
+  padding-right: 10px;
+  margin: auto;
+  top: 2%;
+  position: absolute;
+  font-size: 10px;
+  text-align: left;
+  justify-items: center;
+  color: #fff;
+  text-shadow: 3px 3px rgb(0, 0, 0);
+}
+
+.analise {
+  color: #0fff00;
+}
+
 }
