@@ -49,6 +49,7 @@ body {
 }
 
 .right-slide {
+  
   height: 100%;
   position: absolute;
   top: 0;
@@ -57,13 +58,17 @@ body {
   transition: transform 0.5s ease-in-out;
 }
 
-.right-slide > div {
-  overflow-y: scroll;
+.right-slide  div {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   height: 100%;
   width: 100%;
+}
+.overflow{
+  overflow-y: scroll;
+
+
 }
 
 button {
@@ -103,12 +108,13 @@ button:focus {
 }
 
 .sobre {
-  box-sizing: border-box;
+
+  
   padding-left: 70px;
   padding-right: 50px;
-  margin: auto;
+  
   top: 8%;
-  position: absolute;
+ 
   font-size: 27px;
   text-align: left;
   justify-items: center;
@@ -117,10 +123,12 @@ button:focus {
 }
 
 .analise {
+  
   color: #0fff00;
 }
 
 .maissobre{
+  
   box-sizing: border-box;  
   padding-left: 60px;
   padding-top: 30px;
@@ -360,23 +368,16 @@ box-sizing: border-box;
     text-shadow: 1px 1px rgb(0, 0, 0);
   }
 
-  .sobre {
-    font-size: 16px;
-    text-align: center;
-    top: 5%;
-  }
 
-  .sobre {
-  box-sizing: border-box;
+.sobre {
+ 
+ 
   padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 5px;
-  margin: auto;
-  top: 2%;
-  position: absolute;
-  font-size: 13px;
+  padding-right: 5px;
+  padding-bottom: 5px; 
+  font-size: 11px;
   text-align: left;
-  justify-items: center;
+  justify-items: left;
   color: #fff;
   text-shadow: 3px 3px rgb(0, 0, 0);
 }
@@ -386,6 +387,7 @@ box-sizing: border-box;
 }
 
 .maissobre{
+  
   box-sizing: border-box;  
   padding-left: 10px;
   padding-top: 20px;
