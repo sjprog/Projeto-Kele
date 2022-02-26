@@ -308,6 +308,9 @@ img {
 
 @media screen and (max-width: 1440px){
 
+  *{
+    max-width:1440px ;
+  }
 .sobre {
   box-sizing: border-box;
   padding-left: 30px;
@@ -342,7 +345,7 @@ img {
 
 
 
-@media screen and (max-width: 768px){
+@media screen and (min-width: 768px){
 * {
     max-width: 768px;
   }
